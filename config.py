@@ -10,7 +10,7 @@ class Development(Config):
     # create any PostgreSQL database (i recommend to use elephantsql) and paste that link here
     DB_URI = "postgres://lvxjlgee:8FLuaV-Mw9KNFvkZ3nCHEOgjwa8jnsQG@jelani.db.elephantsql.com/lvxjlgee" # IF U DONT KNOW HOW TO MAKE THEN GO IN THANOS SUPPORT AND TYPE #DB_URI 
     # After cloning the repo and installing requirements do python3 stringsetup.py an fill that value with this
-    STRING_SESSION = "1AZWarzUBu6Nd0k83n-URo3zZ-1Y0O-_LyT72N3l0-AAQdoQlhFX1CxHG6SMHDk56-RZVaMJYG-upvVq70uVOEhtBf0N0sByINBgqJkiyOJucjqVn7zWS7r8dgKdRFKAxtNErpfftAmRdrTtUx8FQvd5ry6EjoU0e1J6-yzD1hJMgPT8MP0Ne87m0PJwS8-UL3KzGK3fGF-05ZJ2Apcj_3-rz84a1RaZmtzHoHefrkUw1OvpjGjCA1EteJ7YBye0FjIgTdMgszxmlmG9yyUTkOjh-tkKI94ezjYmiiofRLzsj_NCJI0j0Z6JwQrDZ4-fRGcKdwCmxjrPWbVDnO_S0eYbB4eGpXIw="# IF U DONT KNOW HOW TO MAKE THEN GO IN THANOS SUPPORT AND TYPE #session 
+    STRING_SESSION = "51AZWarzUBu6eBGCnrVjPRBpSasjdNs6it99CdrBffCL1-3ff26xmbLkuKCHXmep1BEq36v1u9RJyayarllgWc5JsHpusy4gXb_wm76NJp2c84QqV9W1IbXqfAIQlql6WuwzMjUXEkJvHiuFnjWvQEolPaifC_hyzmJyzkAbe3Sl3AfRhiEJ8Qx0zJDYrYOSPoma4ylgS0s2-6HZ8aXHQoizs8oryVYFJBMHl0Qe2P8jUtuxxfe3S3SdfRXFM9YMiHQWoSeseDZM3AeaXBygIjlnix9dWMxnqVEld_MXATqPPi1N2yOOTfresgfoD-sQ3nEPX5esHs2fKw3RdoLng-XNOgcuQFnCU="# IF U DONT KNOW HOW TO MAKE THEN GO IN THANOS SUPPORT AND TYPE #session 
     # --------------------------------------------------
 
     TG_BOT_TOKEN = "5799736509:AAEeurHHzYMOkVkfIZCXt_4ZCD9QauIBZHo"# create a new bot in @botfather and fill the following vales with bot token
