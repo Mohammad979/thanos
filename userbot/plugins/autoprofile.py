@@ -1,5 +1,5 @@
 # batmanpfp and thorpfp by @Nihinivi
-
+from pytz import timezone
 import asyncio
 import base64
 import os
@@ -28,6 +28,7 @@ from ..sql_helper.global_list import (
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 from . import BOTLOG, BOTLOG_CHATID, _catutils, THANOSPRO, edit_delete, logging
 
+ind_time = datetime.now(timezone("Asia/Kolkata")).strftime('%H:%M')
 plugin_category = "tools"
 DEFAULTUSERBIO = gvarstatus("DEFAULT_BIO") or " ᗯᗩᏆᎢᏆᑎᏀ ᏞᏆᏦᗴ ᎢᏆᗰᗴ  "
 DEFAULTUSER = gvarstatus("DEFAULT_NAME") or Config.ALIVE_NAME
@@ -225,7 +226,7 @@ async def autoname_loop():
 async def autobio_loop():
     while AUTOBIOSTART := gvarstatus("autobio") == "true":
         DMY = time.strftime("%d.%m.%Y")
-        HM = time.strftime("%H:%M")
+        HM = time.strftime(ind_time)
         bio = f"📅 {DMY} | {DEFAULTUSERBIO} | ⌚️ {HM}"
         LOGS.info(bio)
         try:
