@@ -28,7 +28,7 @@ from ..sql_helper.global_list import (
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 from . import BOTLOG, BOTLOG_CHATID, _catutils, THANOSPRO, edit_delete, logging
 
-ind_time = datetime.now(timezone("Asia/Kolkata")).strftime('%H:%M')
+ind_time = datetime.now(timezone("Asia/Kolkata")).strftime('%I:%M %p')
 plugin_category = "tools"
 DEFAULTUSERBIO = gvarstatus("DEFAULT_BIO") or " ᗯᗩᏆᎢᏆᑎᏀ ᏞᏆᏦᗴ ᎢᏆᗰᗴ  "
 DEFAULTUSER = gvarstatus("DEFAULT_NAME") or Config.ALIVE_NAME
